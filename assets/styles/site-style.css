@@ -1,0 +1,41 @@
+menu{
+    padding-left: 0;
+    margin-left: 0;
+}
+menu ul{
+    list-style:none;
+    float: right;
+}
+menu ul li{
+    display:inline-block;
+    margin-left: 10px;
+}
+menu ul li a{
+    text-decoration: none !important;
+}
+article img{
+    width: 100%;
+}
+h1, h2, h3, h4, h5{
+    padding: 0;
+    margin: 0;
+}
+.featured-articles .news{
+    background-color: #33324d;
+}
+.featured-articles .news h3{
+    color: white;
+    padding: 10px 20px;
+}
+.featured-articles .news article{
+    padding: 10px 20px;
+}
+.featured-articles .news h4{
+    font-size: 0.9em;
+    color: white;
+}
+.featured-articles .news p{
+    font-size: 12px;
+    margin: 0;
+    color: white;
+}
