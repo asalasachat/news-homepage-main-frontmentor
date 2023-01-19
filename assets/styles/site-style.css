@@ -20,6 +20,13 @@ h1, h2, h3, h4, h5{
     padding: 0;
     margin: 0;
 }
+.featured-articles-content{
+    display: flex;
+    justify-content: space-between;
+}
+.main-article, .news{
+    box-sizing: border-box;
+}
 .featured-articles .news{
     background-color: #33324d;
 }
