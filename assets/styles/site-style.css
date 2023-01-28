@@ -20,6 +20,10 @@ h1, h2, h3, h4, h5{
     padding: 0;
     margin: 0;
 }
+p{
+    font-size: 12px;
+    margin: 0;
+}
 .featured-articles-content{
     display: flex;
     justify-content: space-between;
@@ -48,4 +52,26 @@ h1, h2, h3, h4, h5{
 }
 .other-articles img{
     width: 100%;
+}
+
+.other-articles h4{
+    font-size: 1em;
+    font-weight: bolder;
+}
+button.call-to-action{
+    background-color: #ed4030;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    border:none;
+    padding: 5px 15px;
+    margin-top: 10px;
+}
+.article-number{
+    font-size: 27px;
+    font-weight: bolder;
+    color: #a6a5a8;
+}
+h2{
+    font-size: 2.2rem;
 }
