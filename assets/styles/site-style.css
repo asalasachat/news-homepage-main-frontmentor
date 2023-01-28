@@ -1,3 +1,6 @@
+.container{
+    width:80%;
+}
 menu{
     padding-left: 0;
     margin-left: 0;
@@ -12,6 +15,8 @@ menu ul li{
 }
 menu ul li a{
     text-decoration: none !important;
+    color: black;
+    font-size: 15px;
 }
 article img{
     width: 100%;
@@ -20,13 +25,21 @@ h1, h2, h3, h4, h5{
     padding: 0;
     margin: 0;
 }
-p{
-    font-size: 12px;
-    margin: 0;
+
+.featured-articles article{
+    border-top: 1px #3a3958 solid;
+    height:26%;
 }
 .featured-articles-content{
     display: flex;
     justify-content: space-between;
+}
+.main-article .content{
+    display: flex;
+    margin-top: 1em;
+}
+.main-article p{
+    font-size: 16.5px;
 }
 .main-article, .news{
     box-sizing: border-box;
@@ -37,41 +50,48 @@ p{
 .featured-articles .news h3{
     color: white;
     padding: 10px 20px;
+    font-size: 2.5em;
+    line-height: 2em;
 }
 .featured-articles .news article{
     padding: 10px 20px;
 }
 .featured-articles .news h4{
-    font-size: 0.9em;
     color: white;
+    padding-top:5%;
 }
 .featured-articles .news p{
-    font-size: 12px;
-    margin: 0;
-    color: white;
+    color: #9999b3;
+}
+.other-articles{
+    margin-top: 3em;
 }
 .other-articles img{
     width: 100%;
 }
-
+h4{
+    font-size: 1.2em;
+}
 .other-articles h4{
-    font-size: 1em;
     font-weight: bolder;
 }
 button.call-to-action{
     background-color: #ed4030;
     text-transform: uppercase;
     color: white;
-    font-size: 12px;
-    border:none;
+    font-size: 14px;
+    border: none;
     padding: 5px 15px;
-    margin-top: 10px;
+    display: block;
+    position: absolute;
+    bottom: 0;
 }
 .article-number{
     font-size: 27px;
     font-weight: bolder;
     color: #a6a5a8;
+    line-height: 1;
 }
 h2{
-    font-size: 2.2rem;
+    font-size: 4.2rem;
 }
