@@ -18,6 +18,11 @@ menu ul li a{
     color: black;
     font-size: 15px;
 }
+menu ul li a:hover{
+    color:#f3a536;
+    font-weight: bold;
+    transition:.3s;
+}
 article img{
     width: 100%;
 }
@@ -48,7 +53,7 @@ h1, h2, h3, h4, h5{
     background-color: #33324d;
 }
 .featured-articles .news h3{
-    color: white;
+    color: #f3a536;
     padding: 10px 20px;
     font-size: 2.5em;
     line-height: 2em;
@@ -57,8 +62,15 @@ h1, h2, h3, h4, h5{
     padding: 10px 20px;
 }
 .featured-articles .news h4{
-    color: white;
     padding-top:5%;
+}
+.featured-articles .news h4 a{
+    color: white;
+}
+.featured-articles .news h4 a:hover{
+    color: #f3a536;
+    text-decoration: none;
+    transition: 0.3s;
 }
 .featured-articles .news p{
     color: #9999b3;
@@ -74,7 +86,21 @@ h4{
 }
 .other-articles h4{
     font-weight: bolder;
+    color: black;
 }
+
+.other-articles h4 a{
+    font-weight: bolder;
+    color: black;
+}
+
+.other-articles h4 a:hover{
+    color: black;
+    text-decoration: none;
+    color: #f3a536;
+    transition: 0.3s;
+}
+
 button.call-to-action{
     background-color: #ed4030;
     text-transform: uppercase;
@@ -82,16 +108,47 @@ button.call-to-action{
     font-size: 14px;
     border: none;
     padding: 5px 15px;
-    display: block;
-    position: absolute;
-    bottom: 0;
 }
+
+button.call-to-action:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
 .article-number{
     font-size: 27px;
     font-weight: bolder;
     color: #a6a5a8;
     line-height: 1;
 }
+.article-number a{
+    color: #a6a5a8;
+}
+
+.article-number a:hover{
+    color: #f3a536;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
 h2{
     font-size: 4.2rem;
+}
+
+@media screen and (max-width:768px) {
+    .featured-articles-content{
+        display: inline-block;
+    }
+    .main-article .content{
+        display: inline-block;
+    }
+
+    button.call-to-action{
+        position: relative;
+        bottom: 0;
+    }
+    .main-article{
+        margin-bottom: 1.5em;
+    }
 }
