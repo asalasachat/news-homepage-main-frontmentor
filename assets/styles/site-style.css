@@ -1,5 +1,6 @@
 .container{
     width:80%;
+    margin-top: 40px;
 }
 menu{
     padding-left: 0;
@@ -31,6 +32,9 @@ h1, h2, h3, h4, h5{
     margin: 0;
 }
 
+.featured-articles{
+    margin-top: 25px;
+}
 .featured-articles article{
     border-top: 1px #3a3958 solid;
     height:26%;
@@ -136,6 +140,10 @@ h2{
     font-size: 4.2rem;
 }
 
+.iconmenu{
+    display: none;
+}
+
 @media screen and (max-width:768px) {
     .featured-articles-content{
         display: inline-block;
@@ -151,4 +159,18 @@ h2{
     .main-article{
         margin-bottom: 1.5em;
     }
+    menu{
+        display: none;
+    }
+    .iconmenu{
+        display: inline-block;
+        float: right;
+        margin-top: 0px;
+        padding: 14px 10px;
+        background: #f4f4f4;
+        border-radius: 5px;
+        width: 45px;
+        border: 1px #e8e8e8 solid;
+    }
+
 }
