@@ -160,10 +160,41 @@ h2{
         margin-bottom: 1.5em;
     }
     menu{
-        position: absolute;
+        margin-top: 0px;
+        position: fixed;
         top: 0;
+        left: 0;
         width: 100vw;
         height: 100vh;
+        text-align: center;
+        z-index: 100;
+        background-color: #0000009c;
+    }
+    menu ul{
+        float: none;
+        margin-left: 0;
+        padding-left: 0;
+        padding-top: 6em;
+        margin-left: 25%;
+        margin-top: 0;
+        margin-bottom: 0;
+        height: 100vh;
+        background: white;
+    }
+    menu ul li{
+        display: block;
+        
+        border-top: 1px #00000000 solid;
+        margin-left: 0;
+        border-bottom: 1px #0000000a solid;
+    }
+    menu ul li:nth-child(5){
+        border-bottom: none;
+
+    }
+    menu ul li a{
+        display: block;
+        padding: 14px;
     }
     .iconmenu{
         display: inline-block;
